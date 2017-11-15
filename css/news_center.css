@@ -1,0 +1,64 @@
+/*
+* @Author: 62599
+* @Date:   2017-07-22 16:57:41
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-09 19:01:36
+*/
+.content{
+	position:relative;
+}
+ .c-nav{
+ 	overflow:hidden;
+ 	width: 500px;
+ 	position:absolute;
+ 	top:30px;
+ 	left:150px;
+
+ }
+ .c-nav ul li{
+ 	overflow: left;
+ 	float: left;
+ 	color: white;
+ 	font-size:13px;
+ }
+ .c-nav ul li a{
+ 	color: white;
+ 	font-size:13px;c
+
+ }
+ .c-title{
+ 	width:1000px;
+ 	height: 50px;
+ 	position: absolute;
+ 	top:90px;
+ 	left:150px;
+ }
+ #ct-hr{
+ 	color:white;
+ 	size:5px;
+ 	width:305px;
+ 	position:absolute;
+ 	top:23px;
+ 	left:345px;
+
+ }
+ #ct-p{
+ 	position:absolute;
+ 	z-index: 1px;
+ 	left:360px;
+ 	top:-10px;
+ 	background: #524330;
+ 	font-size: 20px;
+ 	color:white;
+
+ }
+ .c-detail{
+ 	width:1000px;
+ 	color:white;
+ 	position:absolute;
+ 	font-size:15px;
+ 	text-indent: 2em;
+ 	top:150px;
+ 	left:150px;
+
+ }

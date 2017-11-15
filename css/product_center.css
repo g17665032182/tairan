@@ -1,0 +1,89 @@
+/*
+* @Author: 62599
+* @Date:   2017-07-23 23:07:24
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-09 19:03:39
+*/
+.content{
+	position:relative;
+}
+ .c-nav{
+ 	overflow:hidden;
+ 	width: 500px;
+ 	position:absolute;
+ 	top:30px;
+ 	left:150px;
+
+ }
+ .c-nav ul li{
+ 	overflow: left;
+ 	float: left;
+ 	color: white;
+ 	font-size:13px;
+ }
+ .c-nav ul li a{
+ 	color: white;
+ 	font-size:13px;
+ }
+ .c-detail{
+ 	width:1000px;
+ 	color:white;
+ 	position:absolute;
+ 	font-size:25px;
+ 	text-indent: 2em;
+ 	top:50px;
+ 	left:150px;
+ 	height: 800px;
+
+ }
+ #c-detail1{
+ 	position:absolute;
+ }
+ #cd1-pho{
+ 	border-radius: 50%;
+ }
+  #cd1-det {
+  	position:absolute;
+  	right:-200px;
+  	top:45px;
+  }
+
+ #cd1-det ul li{	
+    width:140px;
+ 	font-size:20px;
+ 	margin: 50px 0px;
+ }
+ #cd1-det1 li{
+   border:1px solid white;
+ }
+ #cd1-det2{
+ 	position:absolute;
+ 	top:0px;
+ 	right:-200px;
+ }
+ #cd1-det2 li{
+border-bottom: 1px solid white;
+text-align: center;
+ }
+
+ #c-detail2{
+ 	position:absolute;
+ 	top:500px;
+ 	left:0px;
+ 	width:1000px;
+ }
+
+#c-detail2 h5 {
+	position:absolute;
+	top: 10px;
+	left:400px;
+	font-size:25px;
+	text-indent: 2em;
+}
+#c-detail2 p{
+	position:absolute;
+	top:80px;
+	font-size:15px;
+	text-indent: 2em;
+
+}

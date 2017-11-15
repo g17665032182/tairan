@@ -1,0 +1,112 @@
+/*
+* @Author: 62599
+* @Date:   2017-07-22 09:53:27
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-11 14:01:37
+*/
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;	
+}
+.nav{
+	width: 1035px;
+	height: 127px;
+	margin:0px auto;
+	position: relative;
+}
+#nl-logo{
+	position:absolute;
+	top:22px;
+}
+#nl-nav{
+	position:absolute;
+	left:27px;
+	top:80px;
+}
+#nl-nav ul li{
+	float: left;
+	margin-left: 85px;
+}
+#nl-nav ul li a{
+	color:black;
+	font-size:20px;
+	font-family: '微软雅黑';
+}
+#nr-search{
+	width:200px;
+	height:40px;
+	position:absolute;
+	right: 0px;
+	top:37px;
+}
+#nr-search input:nth-of-type(1){
+	width:150px;
+	height:30px;
+
+}
+#nr-search input:nth-of-type(2){
+	width:41px;
+	height:34px;
+	margin-left:-5px;
+	background:url('../image/search.png') no-repeat center center grey;
+	background-size: 60%;
+	background-origin:padding-box;
+	border:none;
+	cursor: pointer;
+
+}
+#nr-right{
+	float:right;
+
+}
+#nr-right ul li{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 5px;
+	color:#999;
+	border-right: 1px solid #999;
+	float:left;
+	text-align: center;
+	cursor:pointer;
+}
+.banner{
+	width:100%;
+	height:427px;
+	position:relative;
+	overflow:hidden;
+}
+.banner ul {
+	width:4098px;
+	overflow:hidden;
+	position:absolute;
+	top: 0px;
+	left:0px;
+	transition:1s;
+}
+.banner ul li{
+	float:left;
+
+}
+.banner>img:nth-of-type(1){
+	z-index: 1;
+}
+.banner>img:nth-of-type(2){
+	z-index: 1;
+}
+.footer{
+	width:100%;
+	height:42px;
+	background:grey;
+    position:relative;
+    bottom: 0px;
+}
+.f-p{	
+font-size:10px;
+position:absolute;
+top:7px;
+left:500px;
+}
+
+

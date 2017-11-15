@@ -1,0 +1,180 @@
+/*
+* @Author: 62599
+* @Date:   2017-07-22 10:53:41
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-12 11:14:22
+*/
+.content{
+	margin:0px auto;
+	width:724px;
+}
+.c-company{
+	position:relative;
+	overflow: hidden;
+}
+.c-top{
+	height:50px;
+	width:724px;
+}
+.c-top ul li{
+	width:230px;
+	font-family:'微软雅黑';
+}
+.c-top ul li div{
+	width:230px;
+	height:151px;
+	overflow:hidden;
+}
+.c-top ul li div img{
+	transition:1s;
+}
+.c-top ul li div img:hover{
+	transform:scale(1.5)
+}
+.hr1{
+	width:80%;
+	color:black;
+	size:2px;
+	margin:50px auto;
+}
+
+.introduce{
+	position:absolute;
+	top:35px;
+	left:293px;
+	background:white;
+	z-index: 1;
+	width:150px;
+	text-align: center;
+	color:black;
+	font-size:20px;
+	font-family: '微软雅黑';
+
+}
+.introduce a{
+	color:black;
+	font-size:20px;
+	font-family: '微软雅黑';
+}
+
+.c-company p{
+	height:230px;
+	width:640px;
+	position:relative;
+	top: 9px;
+	left: 50px;
+	font-size:15px;
+	text-indent: 2em;
+	overflow:hidden;
+
+}
+.c-product{
+	position:relative;
+	width:1257px;
+	height:350px;
+	overflow:hidden;
+	margin-top: 10px;
+}
+.c-product ul{
+	overflow:hidden;
+}
+
+.c-product ul li{
+	float: left;
+	width:230px;
+	overflow:hidden;
+	margin-left: 10px;
+	text-align:
+}
+.c-product ul li p{
+	text-align:center;
+}
+
+.c-new{
+	position:relative;
+	overflow:hidden;
+	width:1257px;
+	height:350px;
+	overflow:hidden;
+	margin-top: 10px;
+}
+.c-new ul{
+	overflow:hidden;
+	position:relative;
+
+}
+.c-new ul li{
+	overflow:hidden;
+	border-radius:50%;
+	float: left;
+	width:200px; 
+	height:200px;
+	margin-left: 40px;
+	position:relative;
+
+}
+.c-new ul li p{
+	position:absolute;
+	font-size: 33px;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.3);
+	width:200px; 
+	height:200px;
+	text-align:center;
+	line-height: 200px;
+	border-radius:50%;
+	color:white;
+	display: none;
+}
+
+.c-warning{
+	position:relative;
+	overflow:hidden;
+	height:350px;
+
+}
+.c-warning p{
+	height:200px;
+	width:640px;
+	position:relative;
+	top: 9px;
+	left: 50px;
+	font-size:15px;
+	text-indent: 2em;
+
+}
+
+
+.c-contact{
+	position:relative;
+	overflow:hidden;
+	height:250px;
+
+}
+.c-contact ul{
+	overflow:hidden;
+}
+.c-contact ul li {
+	float:left;
+	margin-left:130px;
+}
+#dizhi{
+	margin-left:84px;
+
+}
+.nodisplay{
+	display:none;
+}
+.introduce p{
+	position:absolute;
+	top:2px;
+	left:-14px;
+	z-index: 1;
+	width:150px;
+	text-align: center;
+	color:black;
+	font-size:20px;
+	font-family: '微软雅黑';
+
+}

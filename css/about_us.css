@@ -1,0 +1,59 @@
+/*
+* @Author: 62599
+* @Date:   2017-07-22 16:42:30
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-10 10:20:46
+*/
+ .c-nav{
+ 	overflow:hidden;
+ 	width: 500px;
+ 	margin: 50px auto;
+ }
+ .c-nav ul li {
+ 	overflow: left;
+ 	float: left;
+ 	margin-left: 50px;
+ 	color: white;
+ 	font-size:15px;
+ 	cursor: pointer;
+ }
+  .c-nav ul li span{
+  	color:white;
+  }
+
+ .c-title{
+ 	width:1000px;
+ 	height: 50px;
+ 	position: absolute;
+ 	top:90px;
+ 	left:150px;
+ }
+.nodisplay{
+ 	display: none;
+ }
+
+ #ct-hr{
+ 	color:white;
+ 	size:5px;
+ }
+ #ct-p{
+ 	position:absolute;
+ 	z-index: 1px;
+ 	left:450px;
+ 	top:-10px;
+ 	background: #524330;
+ 	font-size: 20px;
+ 	color:white;
+
+ }
+ .c-detail{
+ 	width:800px;
+ 	margin:0px auto;
+ }
+ .c-detail p{
+
+ 	color:white;
+ 	font-size:15px;
+ 	text-indent: 2em;
+ 	font-family: '微软雅黑'
+ }
